@@ -11,7 +11,7 @@ const Profile = ({ name, points }: ProfileProps) => {
     <div className="flex flex-col items-center space-y-8">
       <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-retro-accent">
         <img
-          src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+          src="https://media.licdn.com/dms/image/v2/D4D03AQGJmmuW0w-Uuw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1668412785432?e=1744243200&v=beta&t=6s9eaIp-YXxDUueba_62Xt7uxVEQEwW9-Aax3EoXMUU"
           alt="Profile"
           className="w-full h-full object-cover"
         />
