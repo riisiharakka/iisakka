@@ -32,13 +32,13 @@ const Profile = ({ name, points }: ProfileProps) => {
       </ul>
       
       <div className="flex space-x-6 mt-8">
-        <a href="mailto:your@email.com" className="text-retro-text hover:text-retro-accent transition-colors">
+        <a href="mailto:harri.iisakka@gmail.com" className="text-retro-text hover:text-retro-accent transition-colors">
           <Mail className="w-6 h-6" />
         </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-retro-text hover:text-retro-accent transition-colors">
+        <a href="https://github.com/riisiharakka" target="_blank" rel="noopener noreferrer" className="text-retro-text hover:text-retro-accent transition-colors">
           <Github className="w-6 h-6" />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-retro-text hover:text-retro-accent transition-colors">
+        <a href="https://linkedin.com/in/iisakka" target="_blank" rel="noopener noreferrer" className="text-retro-text hover:text-retro-accent transition-colors">
           <Linkedin className="w-6 h-6" />
         </a>
       </div>
