@@ -3,8 +3,8 @@ import Profile from "@/components/Profile";
 const Index = () => {
   const points = [
     <>Co-founder, product & ops @ <a href="https://synergi.so" className="text-retro-text hover:text-retro-accent">Synergi</a></>,
-    "Finnish guy in my late 20s loving all things products and sports",
-    "Always learning, always building ;)",
+    "Finnish guy in my late 20s loving all things products and sports 🏒",
+    "Always building",
   ];
 
   return (
