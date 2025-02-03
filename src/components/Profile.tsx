@@ -3,7 +3,7 @@ import { Mail, Github, Linkedin } from "lucide-react";
 
 interface ProfileProps {
   name: string;
-  points: string[];
+  points: (string | React.ReactNode)[];
 }
 
 const Profile = ({ name, points }: ProfileProps) => {
