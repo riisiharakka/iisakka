@@ -68,9 +68,20 @@ export default {
           "0%": { opacity: "0", transform: "translateY(10px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
+        "aurora": {
+          "0%, 100%": {
+            transform: "translateY(0) scale(1)",
+            filter: "hue-rotate(0deg)",
+          },
+          "50%": {
+            transform: "translateY(-20px) scale(1.2)",
+            filter: "hue-rotate(360deg)",
+          },
+        },
       },
       animation: {
         "fade-in": "fade-in 0.5s ease-out forwards",
+        "aurora": "aurora 15s ease infinite",
       },
     },
   },
