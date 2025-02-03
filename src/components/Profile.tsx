@@ -9,7 +9,7 @@ interface ProfileProps {
 const Profile = ({ name, points }: ProfileProps) => {
   return (
     <div className="flex flex-col items-center space-y-8">
-      <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-retro-accent">
+      <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-retro-accent">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbPRIgQ_aEj2vt9EBgU8O0tl48O5rH4g3R_w&s"
           alt="Profile"
